@@ -323,6 +323,17 @@
     *, *::before, *::after { animation: none !important; transition: none !important; }
     .event-card, .reveal { opacity: 1; transform: none; }
   }
+
+ .ganesh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ganesh img {
+    width: 80px;   /* adjust size */
+    height: auto;
+}
 </style>
 </head>
 <body>
@@ -332,7 +343,9 @@
   <canvas id="petal-canvas"></canvas>
 
   <div class="arch">
-    <div class="ganesh">🕉️</div>
+    <div class="ganesh">
+    <img src="ganesh.png" alt="Ganesh Image">
+</div>
     <div class="blessing">Shubh Vivah</div>
 
     <div class="family-name">Swain Family</div>
